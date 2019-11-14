@@ -24,5 +24,5 @@ As first commit, this script is edited in place to alter rs parameters. This wil
 
 # LICENSE #
 
-**symcheck is offered under the MIT License.**  
-**Please read it here: https://opensource.org/licenses/MIT**  
+popfreq is offered under the MIT License.
+Please read it here: https://opensource.org/licenses/MIT
