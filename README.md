@@ -4,12 +4,12 @@ Show population frequency tables from Ensembl data
 # What is popfreq #
 
 This script builds haplotype frequency tables from population data obtained from Ensembl. It is useful to determine ancestral and derived alleles.
-# How to install symcheck #
+
 
 1 . Requisites:  
 
  * Python 3.5+ (I suggest [Anaconda Python](https://www.continuum.io/downloads))  
- * Pandas
+ * The Pandas library
 
 2. Downloading data from Ensembl:
 
