@@ -130,10 +130,12 @@ class Popdata:
         catset = set(self.df[self.rsname])
         self.cats = dict()
         for item in catset:
-            if item[::-1] in self.cats:
-                self.cats[item] = item[::-1]
+            rev = '|'.join(item.split('|')[::-1])
+            if rev in self.cats:
+                self.cats[item] = rev
             else:
-                self.cats[item] = item
+                self.cats[item] = '|'.join(item.split('|'))
+
     
     def _uniform(self, genotype):
         return self.cats[genotype]
